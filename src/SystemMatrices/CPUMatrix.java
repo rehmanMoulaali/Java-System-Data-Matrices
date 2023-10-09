@@ -4,12 +4,15 @@ import SystemMatrices.CPUData;
 
 import javax.management.*;
 import java.lang.management.ManagementFactory;
+import java.lang.management.OperatingSystemMXBean;
 import java.lang.management.ThreadInfo;
 import java.lang.management.ThreadMXBean;
 import java.util.ArrayList;
 import java.util.List;
 
 public class CPUMatrix {
+    private static OperatingSystemMXBean osBean = ManagementFactory.getPlatformMXBean(OperatingSystemMXBean.class);
+
     public static List<CPUData> getAllThreadData(){ //get All the threads with CPU time taken by each
         ThreadMXBean threadMXBean = ManagementFactory.getThreadMXBean();
         List<CPUData> cpuData=new ArrayList<>();
@@ -35,5 +38,10 @@ public class CPUMatrix {
             return getProcessCpuLoad();  // usually takes a couple of seconds before we get real values
         }
         return ((int) (value * 1000) / 10.0);        // returns a percentage value with 1 decimal point precision
+    }
+    public static Double getAvailableProcessors(){
+        OperatingSystemMXBean osBean = (OperatingSystemMXBean) ManagementFactory.getOperatingSystemMXBean();
+        double cpuUsage = osBean.getAvailableProcessors();
+        return cpuUsage;
     }
 }
