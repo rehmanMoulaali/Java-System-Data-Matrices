@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dc1b6507-7819-4fe7-8bb7-bd853087e462" name="Changes" comment="">
+    <list default="true" id="dc1b6507-7819-4fe7-8bb7-bd853087e462" name="Changes" comment="added fuctionalities">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SystemInfoMatrix.iml" beforeDir="false" afterPath="$PROJECT_DIR$/SystemInfoMatrix.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/SystemMatrices/CPUMatrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SystemMatrices/CPUMatrix.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -42,7 +42,12 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
-    "onboarding.tips.debug.path": "C:/Users/Nss/projects/SystemInfoMatrix/src/Main.java"
+    "last_opened_file_path": "C:/Users/Nss/Downloads/jna-5.13.0.jar",
+    "onboarding.tips.debug.path": "C:/Users/Nss/projects/SystemInfoMatrix/src/Main.java",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.language.Kotlin"
   }
 }]]></component>
   <component name="RunManager">
@@ -68,7 +73,20 @@
       <option name="presentableId" value="Default" />
       <updated>1696838694112</updated>
     </task>
+    <task id="LOCAL-00001" summary="added fuctionalities">
+      <option name="closed" value="true" />
+      <created>1696856840071</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1696856840071</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="added fuctionalities" />
+    <option name="LAST_COMMIT_MESSAGE" value="added fuctionalities" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -85,5 +103,9 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

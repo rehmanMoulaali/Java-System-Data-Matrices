@@ -1,6 +1,7 @@
 package SystemMatrices;
 
 import SystemMatrices.CPUData;
+import org.hyperic.sigar.Sigar;
 
 import javax.management.*;
 import java.lang.management.ManagementFactory;
@@ -42,6 +43,13 @@ public class CPUMatrix {
     public static Double getAvailableProcessors(){
         OperatingSystemMXBean osBean = (OperatingSystemMXBean) ManagementFactory.getOperatingSystemMXBean();
         double cpuUsage = osBean.getAvailableProcessors();
+
+//        Sigar sigar=new Sigar();
+//        try {
+//            System.out.println(sigar.getCpuPerc().getCombined() * 100);
+//        }catch (Exception e){}
         return cpuUsage;
+
     }
+   
 }
